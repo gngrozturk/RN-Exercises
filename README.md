@@ -1,4 +1,4 @@
-# AnamnesisApp
+# RN-Exercises
 
 RN-Exercises is a mobile application that I have practiced my knowledge when I started to learn React Native. **It developed by using React Native (Expo CLI)**.
 
