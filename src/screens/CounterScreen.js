@@ -18,7 +18,7 @@ const reducer = (state, action) => {
 const CounterScreen = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
   return (
-    <View>
+    <View style={styles.container}>
       <Button
         title="Increase"
         onPress={() => {
@@ -31,11 +31,22 @@ const CounterScreen = () => {
           dispatch({ type: "decrement", payload: 1 });
         }}
       />
-      <Text>Current Count:{state.count}</Text>
+      <Text style={styles.text}>Current Count:{state.count}</Text>
     </View>
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    margin: 15,
+    height: 300,
+    justifyContent: "space-around",
+  },
+  text: {
+    fontSize: 20,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+});
 
 export default CounterScreen;

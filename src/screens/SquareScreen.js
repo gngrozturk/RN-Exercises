@@ -14,11 +14,13 @@ const reducer = (state, action) => {
         ? state
         : { ...state, red: state.red + action.payload };
     case "change_green":
-      return state.green + action.payload > 255 || state.green + action.payload < 0
+      return state.green + action.payload > 255 ||
+        state.green + action.payload < 0
         ? state
         : { ...state, green: state.green + action.payload };
     case "change_blue":
-      return state.blue + action.payload > 255 || state.blue + action.payload < 0
+      return state.blue + action.payload > 255 ||
+        state.blue + action.payload < 0
         ? state
         : { ...state, blue: state.blue + action.payload };
     default:
@@ -35,7 +37,7 @@ const SquareScreen = () => {
   const { red, green, blue } = state;
 
   return (
-    <View>
+    <View style={styles.container}>
       <ColorCounter
         onIncrease={() =>
           runMyReducer({ type: "change_red", payload: COLOR_INCREMENT })
@@ -65,6 +67,7 @@ const SquareScreen = () => {
       />
       <View
         style={{
+          alignSelf:"center",
           height: 150,
           width: 150,
           backgroundColor: `rgb(${red},${green},${blue})`,
@@ -74,6 +77,12 @@ const SquareScreen = () => {
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    marginHorizontal: 5,
+    flex:1,
+    justifyContent:"space-around"
+  },
+});
 
 export default SquareScreen;

@@ -11,6 +11,6 @@ const ImageDetail = ({ imageScore, imageSource, title }) => {
   );
 };
 
-const style = StyleSheet.create({});
+const styles = StyleSheet.create({});
 
 export default ImageDetail;

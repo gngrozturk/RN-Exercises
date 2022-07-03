@@ -3,8 +3,8 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View>
-      <Text style={styles.text}>Eyyoos</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>React Native Exercises</Text>
       <Button
         onPress={() => navigation.navigate("Components")}
         title="Go to components demo"
@@ -44,6 +44,13 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
+    textAlign: "center",
+    marginVertical: 5,
+  },
+  container: {
+    flex:1,
+    marginHorizontal: 5,
+    justifyContent:"space-around"
   },
 });
 
