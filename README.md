@@ -2,9 +2,11 @@
 
 RN-Exercises is a mobile application that I have practiced my knowledge when I started to learn React Native. **It developed by using React Native (Expo CLI)**.
 
-<p align="center"><img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/1.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/2.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/3.jpg" width="300" /></p>
+<p align="center"><img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/1.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/2.jpg" width="300" /></p>
 
-<p align="center"><img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/4.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/5.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/6.jpg" width="300" /></p>
+<p align="center"><img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/3.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/4.jpg" width="300" />   </p>
+
+<p align="center"><img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/5.jpg" width="300" />   <img align="center" src="https://github.com/gngrozturk/RN-Exercises/blob/master/ss/6.jpg" width="300" />   </p>
 
 ## Getting Started
 
